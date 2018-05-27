@@ -1,0 +1,91 @@
+.page {
+  font-family: 'pt_sans_captionregular', serif;
+  font-size: 16px;
+  overflow-x: hidden; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+.start__wrapper {
+  background: #f8f3ef;
+  padding: 95px 0 100px 0; }
+
+.start__item {
+  min-height: 358px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  background-color: #fff;
+  box-shadow: 9.1px 7.9px 20px 0 rgba(248, 161, 130, 0.3); }
+  .start__item:first-child {
+    margin-bottom: 65px; }
+  .start__item:last-child {
+    -webkit-flex-wrap: wrap-reverse;
+        -ms-flex-wrap: wrap-reverse;
+            flex-wrap: wrap-reverse; }
+
+.start__info {
+  padding: 34px 31px 26px; }
+
+.start__picture {
+  min-height: 358px;
+  width: 100%;
+  background-position: center;
+  background-size: cover; }
+  .start__picture-1 {
+    background-image: url("../img/start/Jessica-Alba.png"); }
+  .start__picture-2 {
+    background-image: url("../img/start/middleton.png"); }
+
+.start__date {
+  color: #89827d;
+  font-size: 14px; }
+
+.start__title {
+  font-size: 24px;
+  color: #f8a182;
+  margin: 90px 0 25px 0;
+  font-family: 'Rubik', sans-serif; }
+
+.start__descr {
+  font-size: 16px;
+  color: #89827d;
+  margin-bottom: 53px; }
+
+.start__link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #000;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase; }
+  .start__link:hover {
+    text-decoration: none;
+    color: #000; }
+
+.start__circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 10px;
+  padding-left: 2px; }
